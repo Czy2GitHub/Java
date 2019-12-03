@@ -1,0 +1,55 @@
+package Week_10th;
+public class Test2 {
+
+}
+abstract class Role{
+	private String name;
+	private int age;
+	private String sex;
+	
+	public Role(String name, int age, String sex) {
+		super();
+		this.name = name;
+		this.age = age;
+		this.sex = sex;
+	}
+	public Role() {	
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	public String getSex() {
+		return sex;
+	}
+	public void setSex(String sex) {
+		this.sex = sex;
+	}
+	abstract void play();
+}
+class Employee extends Role{
+	static int ID;
+	int salary;
+	void play() {
+		System.out.println("玩！");
+	}
+	public Employee(String name, int age, String sex, int salary) {
+		super(name, age, sex);
+		this.salary = salary;
+	}
+	public Employee(String name, int age, String sex) {
+		super(name, age, sex);
+	}
+	
+}
+class Manager extends Employee{
+	
+}

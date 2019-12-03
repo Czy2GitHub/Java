@@ -1,0 +1,51 @@
+package cn.ccu;
+
+
+/**
+ * 
+ * @author dell
+ *
+ */
+import java.util.Scanner;
+public class Main {
+	public static void main(String[] args) {
+		Scanner sc1 = new Scanner(System.in);
+		double C1 = sc1.nextDouble();					//输入
+		double C2 = sc1.nextDouble();	
+		double f = (C2 - C1)/100;				//得到秒
+		double minute = 0;						//初始化
+		double hours = 0;
+		double second = second(f);				//调用函数得到秒
+		if(f > 60) {							//调用函数，得到分钟
+		minute = minute + count(f);			
+		}
+		if(minute > 60) {						//调用函数，得到小时
+			hours = hours + count(minute);
+		}
+		minute = second(minute);
+		System.out.println(String.format("%02.0f:%02.0f:%02.0f",hours,minute,second));	//按照格式输出
+	}
+	public static int count(double a) {			
+		int counter = 0;					//计数器
+		while(a > 60) {						//60进一位
+			a  = a - 60;
+			counter++;						//用counter纪录进位的次数
+		}
+		return counter;						//返回counter
+	}	
+	public static double second(double a) {	//单独用来获得秒
+		while(a > 60) {						
+			a = a - 60; 
+		}
+		return a;
+	}
+	
+}
+/*int difference = (C2 - C1)/100 ;					
+		int hours = difference / 3600;					
+		int minute = (difference - hours*3600) / 60;
+		double second = difference - hours*3600 - minute*60;
+		System.out.println(second);
+		System.out.printf("%d:%d:%.0f",hours,minute,second);
+		*/
+		

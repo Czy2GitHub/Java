@@ -1,0 +1,12 @@
+
+public class Text {
+	public int haha() {
+		return 0;
+	}
+}
+
+class HA extends Text{
+	public void haha() {
+		
+	}
+}

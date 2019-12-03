@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item value="true" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="D:\Eclipse\WorkSpace2\Tesk"/>
+			<item value="D:\Eclipse\WorkSpace2\qqq"/>
+			<item value="D:\Eclipse\WorkSpace2\Pro4_5"/>
+			<item value="D:\Eclipse\WorkSpace2\Pro02"/>
+			<item value="D:\Eclipse\WorkSpace2\Pr0.01"/>
+			<item value="D:\Eclipse\WorkSpace2\MyGame"/>
+			<item value="D:\Eclipse\WorkSpace2\Mdzz"/>
+			<item value="D:\Eclipse\WorkSpace2\Machine_Operation"/>
+			<item value="D:\Eclipse\WorkSpace2\Long"/>
+			<item value="D:\Eclipse\WorkSpace2\game"/>
+			<item value="D:\Eclipse\WorkSpace2\Beta"/>
+			<item value="D:\Eclipse\WorkSpace2\BallGame"/>
+			<item value="D:\Eclipse\WorkSpace2\Arrays"/>
+			<item value="D:\Eclipse\WorkSpace2\a77"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+</section>

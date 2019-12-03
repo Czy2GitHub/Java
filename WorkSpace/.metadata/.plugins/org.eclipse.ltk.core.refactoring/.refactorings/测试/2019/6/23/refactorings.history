@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;cn.ccu.StringBuilder&apos; to &apos;TestStringBuilder&apos;&#x0D;&#x0A;- Original project: &apos;测试&apos;&#x0D;&#x0A;- Original element: &apos;cn.ccu.StringBuilder&apos;&#x0D;&#x0A;- Renamed element: &apos;cn.ccu.TestStringBuilder&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;StringBuilder&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;cn.ccu{StringBuilder.java[StringBuilder" matchStrategy="1" name="TestStringBuilder" qualified="false" references="true" similarDeclarations="false" stamp="1559488829510" textual="false" version="1.0"/>
+</session>

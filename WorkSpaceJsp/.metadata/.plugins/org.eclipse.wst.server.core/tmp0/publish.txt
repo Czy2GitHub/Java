@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Sat Nov 16 16:27:55 CST 2019
+org.eclipse.jst.jee.server\:JspViewDemo=D\:\\Tomcat8\\apache-tomcat-8.0.51\\wtpwebapps\\JspViewDemo
+org.eclipse.jst.jee.server\:NewJspDemo=D\:\\Tomcat8\\apache-tomcat-8.0.51\\wtpwebapps\\NewJspDemo

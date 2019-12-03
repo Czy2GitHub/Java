@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+D:\Eclipse\WorkSpace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2412762766.index
+\o2o\src\main\java
+D:\Eclipse\WorkSpace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2285680586.index
+\MyJavaWebApp\src

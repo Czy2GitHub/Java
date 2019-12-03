@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;cn.ccu.Main&apos; to &apos;Main_first&apos;&#x0D;&#x0A;- Original project: &apos;PTA&apos;&#x0D;&#x0A;- Original element: &apos;cn.ccu.Main&apos;&#x0D;&#x0A;- Renamed element: &apos;cn.ccu.Main_first&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Main&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;cn.ccu{Main.java[Main" matchStrategy="1" name="Main_first" qualified="false" references="true" similarDeclarations="false" stamp="1558947036979" textual="false" version="1.0"/>
+</session>
